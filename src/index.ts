@@ -24,7 +24,7 @@ export class Log {
   }
 
   /**
-   * Logs a success message in the console.
+   * Logs a info message in the console.
    * @param {string} msg - The message to be logged
    *
    * @example
@@ -36,7 +36,7 @@ export class Log {
   }
 
   /**
-   * Logs a success message in the console.
+   * Logs a warning message in the console.
    * @param {string} msg - The message to be logged
    *
    * @example
@@ -48,7 +48,7 @@ export class Log {
   }
 
   /**
-   * Logs a success message in the console.
+   * Logs a custom color message in the console.
    * @param {string} msg - The message to be logged
    * @param {string} color - Custom color of the message
    *
@@ -61,7 +61,7 @@ export class Log {
   }
 
   /**
-   * Logs a success message in the console.
+   * Logs a custom background and color message in the console.
    * @param {string} msg - The message to be logged
    * @param {string} background - Custom background of the message
    * @param {string} [color] - Custom color of the message
